@@ -1,8 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
 .grid{
     display:grid;
-    grid-template-columns: auto;
+   
 }
 
 img{
     width:30%;
 }
+
+.old{
+color: rgb(74, 74, 189);
+}
+.young{
+color: rgb(199, 103, 0);
+}
+
+.Superheroes{
+    display:grid;
+  
+}
+.alias{
+    font-size: 40px;
+}
+.realName{
+    font-size: 30px;
+}
+.birthday, .origin, .powers, .weaknesses, .height{
+    font-size: 20px;
+}
+
+
+.good,.evil{
+    font-size: 22px;
+}
+
